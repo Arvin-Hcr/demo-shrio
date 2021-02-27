@@ -1,0 +1,4 @@
+com\hcr\shiro\controller\BookController.class
+com\hcr\shiro\config\ShiroConfig.class
+com\hcr\shiro\controller\LonginController.class
+com\hcr\shiro\Application.class

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<h1>This is Index Page!</h1>
+
+    <ul>
+        <li><a href="/allBooks">图书管理</a></li>
+        <li shiro:hasRole="book_manager"><a href="/allBooks">图书管理</a></li>
+        <li shiro:hasRole="user_manager"><a href="">用户管理</a></li>
+        <shiro:hasRole name="student_manager">
+            <li><a href="">学生管理</a></li>
+        </shiro:hasRole>
+    </ul>
+
+</body>
+</html>

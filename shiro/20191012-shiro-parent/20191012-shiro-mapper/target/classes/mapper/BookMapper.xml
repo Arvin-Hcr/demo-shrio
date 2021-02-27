@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aaa.lee.springcloud.mapper.BookMapper" >
+  <resultMap id="BaseResultMap" type="com.aaa.lee.springcloud.model.Book" >
+    <result column="id" property="id" jdbcType="BIGINT" />
+    <result column="book_name" property="bookName" jdbcType="VARCHAR" />
+    <result column="book_price" property="bookPrice" jdbcType="VARCHAR" />
+  </resultMap>
+  <insert id="insert" parameterType="com.aaa.lee.springcloud.model.Book" >
+    <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into book (book_name, book_price)
+    values (#{bookName,jdbcType=VARCHAR}, #{bookPrice,jdbcType=VARCHAR})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, book_name, book_price
+    from book
+  </select>
+</mapper>

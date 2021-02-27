@@ -1,0 +1,4 @@
+com\hcr\shiro\mapper\RoleMapper.class
+com\hcr\shiro\mapper\BookMapper.class
+com\hcr\shiro\mapper\PermissionMapper.class
+com\hcr\shiro\mapper\UserMapper.class

@@ -1,0 +1,19 @@
+1.shiro的jar:
+    所需要的jar包
+    shiro-all
+    因为最终使用一个简单java项目来进行构建shiro，需要把shiro的所有信息以及日志打印在控制台
+    所以还需要log4j的jar包(slf4j)，如果需要使用slf4j-->先引入log4j-->然后引入log4j和slf4j的整合包
+    log4j
+    slf4j
+    log4j-slf4j
+
+规定：
+    所有的开发工具都是IDEA2019.2
+    所有的jdk必须最少为8
+    所有的maven最少都是3.5.4版本以上
+    所有的IDEA都必须要安装阿里巴巴代码规约插件
+    所有的实体类都必须要实现序列化接口(真实环境:序列化接口必须实现)
+    并且必须要有toString hashCode和equals
+    所有的IDEA都必须要安装lombok插件
+    魔法师是阿里巴巴代码规约中的-->项目中的硬编码
+    所有的IDEA都必须安装SVN的disconnect插件

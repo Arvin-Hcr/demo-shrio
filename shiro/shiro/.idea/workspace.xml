@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d33b25c9-1686-4b14-8ae6-59cb283f023f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\kuangjia\Maven" />
+        <option name="mavenHome" value="F:/kuangjia/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\kuangjia\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1kM19awXzpGPfjwzQP6nNsCZ5jd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shiro-mapper/src/main/resources/mapper" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31494254" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.arvin.shiro" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.arvin.shiro.mapper" />
+      <recent name="com.arvin.shiro" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HCR\Desktop\shiro\shiro\shiro-mapper\src\main\resources\mapper" />
+      <recent name="C:\Users\HCR\Desktop\shiro\shiro\shiro-model\src\test\java" />
+      <recent name="C:\Users\HCR\Desktop\shiro\shiro\shiro-web\src\main\resources" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d33b25c9-1686-4b14-8ae6-59cb283f023f" name="Default Changelist" comment="" />
+      <created>1605495495793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605495495793</updated>
+      <workItem from="1605495498556" duration="15455000" />
+      <workItem from="1605575863769" duration="2583000" />
+      <workItem from="1605583756612" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Inspections" timestamp="1605517497669">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1605517497669" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1605515853492">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1605515853492" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1605514875134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605514875134" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605514679393">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605514679393" />
+    <state x="424" y="175" key="FileChooserDialogImpl" timestamp="1605514697824">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605514697824" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1605515599223">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1605515599223" />
+    <state x="145" y="62" key="SettingsEditor" timestamp="1605506681026">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="145" y="62" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605506681026" />
+    <state x="53" y="115" key="new project wizard" timestamp="1605495640197">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="53" y="115" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605495640197" />
+    <state x="847" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605576753757">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="847" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605576753757" />
+  </component>
+</project>

@@ -1,0 +1,4 @@
+com\hcr\shiro\model\User.class
+com\hcr\shiro\model\Role.class
+com\hcr\shiro\model\Permission.class
+com\hcr\shiro\model\Book.class

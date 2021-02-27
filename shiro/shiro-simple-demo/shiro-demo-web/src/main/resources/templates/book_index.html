@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro" version="3.0">
+<head>
+    <meta charset="UTF-8">
+    <title>This is BookManager PageInfo!</title>
+</head>
+<body>
+    <shiro:hashPermisson name="book:update">
+        <h3><a href="/addBook">新增</a></h3>
+    </shiro:hashPermisson>
+<table border="1px solid black">
+    <thead>
+        <tr>
+            <th>图书编号</th>
+            <th>图书名称</th>
+            <th>图书价格</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="book : ${bookList}">
+            <td th:text="${book.id}"></td>
+            <td th:text="${book.bookName}"></td>
+            <td th:text="${book.bookPrice}"></td>
+            <td>
+                <a shiro:hasPermission="book:update" href="">修改</a>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a shiro:hasPermission="book:delete" href="">删除</a></td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
